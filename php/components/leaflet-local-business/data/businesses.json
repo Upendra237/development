@@ -1,0 +1,252 @@
+{
+  "businesses": [
+    {
+      "id": 1,
+      "name": "Thamel House Restaurant",
+      "category": "restaurant",
+      "description": "Traditional Newari cuisine with cultural performances",
+      "address": "Thamel, Kathmandu",
+      "phone": "+977-1-4410388",
+      "website": "http://thamelhouse.com",
+      "location": {
+        "lat": 27.7154,
+        "lng": 85.3123
+      },
+      "hours": {
+        "monday": "11:00 AM - 10:00 PM",
+        "tuesday": "11:00 AM - 10:00 PM",
+        "wednesday": "11:00 AM - 10:00 PM",
+        "thursday": "11:00 AM - 10:00 PM",
+        "friday": "11:00 AM - 10:30 PM",
+        "saturday": "11:00 AM - 10:30 PM",
+        "sunday": "11:00 AM - 10:00 PM"
+      },
+      "rating": 4.5,
+      "reviews_count": 856,
+      "features": ["Cultural Shows", "Rooftop Dining", "Traditional Setting"]
+    },
+    {
+      "id": 2,
+      "name": "Cafe Swabacha",
+      "category": "cafe",
+      "description": "Famous for traditional Newari snacks and local coffee",
+      "address": "Bhaktapur Durbar Square",
+      "phone": "+977-1-6610237",
+      "website": "https://cafeswabacha.com.np",
+      "location": {
+        "lat": 27.6710,
+        "lng": 85.4298
+      },
+      "hours": {
+        "monday": "7:00 AM - 8:00 PM",
+        "tuesday": "7:00 AM - 8:00 PM",
+        "wednesday": "7:00 AM - 8:00 PM",
+        "thursday": "7:00 AM - 8:00 PM",
+        "friday": "7:00 AM - 8:30 PM",
+        "saturday": "7:00 AM - 8:30 PM",
+        "sunday": "7:00 AM - 8:00 PM"
+      },
+      "rating": 4.6,
+      "reviews_count": 423,
+      "features": ["Rooftop View", "Local Cuisine", "Heritage Building"]
+    },
+    {
+      "id": 3,
+      "name": "Patan Museum Cafe",
+      "category": "cafe",
+      "description": "Historic setting cafe in Patan Museum",
+      "address": "Patan Durbar Square, Lalitpur",
+      "phone": "+977-1-5535252",
+      "website": "https://patanmuseum.gov.np/cafe",
+      "location": {
+        "lat": 27.6726,
+        "lng": 85.3239
+      },
+      "hours": {
+        "monday": "10:00 AM - 5:00 PM",
+        "tuesday": "10:00 AM - 5:00 PM",
+        "wednesday": "10:00 AM - 5:00 PM",
+        "thursday": "10:00 AM - 5:00 PM",
+        "friday": "10:00 AM - 5:00 PM",
+        "saturday": "10:00 AM - 5:00 PM",
+        "sunday": "Closed"
+      },
+      "rating": 4.4,
+      "reviews_count": 312,
+      "features": ["Museum View", "Historic Setting", "Traditional Architecture"]
+    },
+    {
+      "id": 4,
+      "name": "Krishnarpan Restaurant",
+      "category": "restaurant",
+      "description": "Luxury Nepali dining experience at Dwarika's Hotel",
+      "address": "Dwarika's Hotel, Battisputali, Kathmandu",
+      "phone": "+977-1-4479488",
+      "website": "https://dwarikas.com/krishnarpan",
+      "location": {
+        "lat": 27.7052,
+        "lng": 85.3497
+      },
+      "hours": {
+        "monday": "6:30 PM - 10:30 PM",
+        "tuesday": "6:30 PM - 10:30 PM",
+        "wednesday": "6:30 PM - 10:30 PM",
+        "thursday": "6:30 PM - 10:30 PM",
+        "friday": "6:30 PM - 10:30 PM",
+        "saturday": "6:30 PM - 10:30 PM",
+        "sunday": "6:30 PM - 10:30 PM"
+      },
+      "rating": 4.8,
+      "reviews_count": 567,
+      "features": ["Fine Dining", "Traditional Courses", "Heritage Hotel"]
+    },
+    {
+      "id": 5,
+      "name": "Vajra Books",
+      "category": "retail",
+      "description": "Extensive collection of books on Nepal, Buddhism and Himalayan region",
+      "address": "Jyatha, Thamel, Kathmandu",
+      "phone": "+977-1-4220562",
+      "website": "http://vajrabooks.com.np",
+      "location": {
+        "lat": 27.7147,
+        "lng": 85.3129
+      },
+      "hours": {
+        "monday": "9:00 AM - 8:00 PM",
+        "tuesday": "9:00 AM - 8:00 PM",
+        "wednesday": "9:00 AM - 8:00 PM",
+        "thursday": "9:00 AM - 8:00 PM",
+        "friday": "9:00 AM - 8:00 PM",
+        "saturday": "9:00 AM - 8:00 PM",
+        "sunday": "10:00 AM - 5:00 PM"
+      },
+      "rating": 4.6,
+      "reviews_count": 289,
+      "features": ["Book Collection", "Academic Resources", "Cultural Publications"]
+    },
+    {
+      "id": 6,
+      "name": "King Curd",
+      "category": "food",
+      "description": "Famous for traditional Bhaktapur yogurt (Juju Dhau)",
+      "address": "Pottery Square, Bhaktapur",
+      "phone": "+977-1-6610789",
+      "location": {
+        "lat": 27.6716,
+        "lng": 85.4285
+      },
+      "hours": {
+        "monday": "6:00 AM - 7:00 PM",
+        "tuesday": "6:00 AM - 7:00 PM",
+        "wednesday": "6:00 AM - 7:00 PM",
+        "thursday": "6:00 AM - 7:00 PM",
+        "friday": "6:00 AM - 7:00 PM",
+        "saturday": "6:00 AM - 7:00 PM",
+        "sunday": "6:00 AM - 7:00 PM"
+      },
+      "rating": 4.7,
+      "reviews_count": 756,
+      "features": ["Traditional Yogurt", "Local Speciality", "Heritage Area"]
+    },
+    {
+      "id": 7,
+      "name": "Garden of Dreams",
+      "category": "attraction",
+      "description": "Neo-classical garden with Kaiser Cafe",
+      "address": "Tridevi Marg, Kathmandu",
+      "phone": "+977-1-4425340",
+      "website": "http://gardenofdreams.org.np",
+      "location": {
+        "lat": 27.7142,
+        "lng": 85.3165
+      },
+      "hours": {
+        "monday": "9:00 AM - 10:00 PM",
+        "tuesday": "9:00 AM - 10:00 PM",
+        "wednesday": "9:00 AM - 10:00 PM",
+        "thursday": "9:00 AM - 10:00 PM",
+        "friday": "9:00 AM - 10:00 PM",
+        "saturday": "9:00 AM - 10:00 PM",
+        "sunday": "9:00 AM - 10:00 PM"
+      },
+      "rating": 4.5,
+      "reviews_count": 1245,
+      "features": ["Historic Garden", "Cafe", "Peace Haven"]
+    },
+    {
+      "id": 8,
+      "name": "The Local Project Nepal",
+      "category": "retail",
+      "description": "Sustainable fashion and local handicrafts",
+      "address": "Kupondole, Lalitpur",
+      "phone": "+977-1-5536214",
+      "website": "https://localprojectnepal.com",
+      "location": {
+        "lat": 27.6827,
+        "lng": 85.3206
+      },
+      "hours": {
+        "monday": "10:00 AM - 6:00 PM",
+        "tuesday": "10:00 AM - 6:00 PM",
+        "wednesday": "10:00 AM - 6:00 PM",
+        "thursday": "10:00 AM - 6:00 PM",
+        "friday": "10:00 AM - 6:00 PM",
+        "saturday": "10:00 AM - 6:00 PM",
+        "sunday": "Closed"
+      },
+      "rating": 4.4,
+      "reviews_count": 187,
+      "features": ["Local Crafts", "Sustainable Fashion", "Fair Trade"]
+    },
+    {
+      "id": 9,
+      "name": "Timro Convenience Store",
+      "category": "grocery",
+      "description": "24-hour convenience store with imported goods",
+      "address": "Jhamsikhel, Lalitpur",
+      "phone": "+977-1-5522755",
+      "location": {
+        "lat": 27.6805,
+        "lng": 85.3162
+      },
+      "hours": {
+        "monday": "Open 24 hours",
+        "tuesday": "Open 24 hours",
+        "wednesday": "Open 24 hours",
+        "thursday": "Open 24 hours",
+        "friday": "Open 24 hours",
+        "saturday": "Open 24 hours",
+        "sunday": "Open 24 hours"
+      },
+      "rating": 4.3,
+      "reviews_count": 234,
+      "features": ["24/7 Service", "Imported Goods", "Fresh Products"]
+    },
+    {
+      "id": 10,
+      "name": "Baber Mahal Revisited",
+      "category": "shopping",
+      "description": "Historic complex with boutiques and restaurants",
+      "address": "Tanka Prasad Ghumti Sadak, Kathmandu",
+      "phone": "+977-1-4218048",
+      "website": "http://babermahalrevisited.com",
+      "location": {
+        "lat": 27.6957,
+        "lng": 85.3237
+      },
+      "hours": {
+        "monday": "10:00 AM - 8:00 PM",
+        "tuesday": "10:00 AM - 8:00 PM",
+        "wednesday": "10:00 AM - 8:00 PM",
+        "thursday": "10:00 AM - 8:00 PM",
+        "friday": "10:00 AM - 8:00 PM",
+        "saturday": "10:00 AM - 8:00 PM",
+        "sunday": "11:00 AM - 6:00 PM"
+      },
+      "rating": 4.5,
+      "reviews_count": 467,
+      "features": ["Heritage Complex", "Fine Dining", "Luxury Shopping"]
+    }
+  ]
+}

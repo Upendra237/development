@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "id": "restaurant",
+      "name": "Restaurants",
+      "icon": "bi-bookmark-heart",
+      "color": "#e67e22"
+    },
+    {
+      "id": "cafe",
+      "name": "Cafes",
+      "icon": "bi-cup-hot",
+      "color": "#27ae60"
+    },
+    {
+      "id": "retail",
+      "name": "Retail Shops",
+      "icon": "bi-shop",
+      "color": "#3498db"
+    },
+    {
+      "id": "food",
+      "name": "Food Specialties",
+      "icon": "bi-egg-fried",
+      "color": "#e74c3c"
+    },
+    {
+      "id": "attraction",
+      "name": "Attractions",
+      "icon": "bi-geo-alt",
+      "color": "#9b59b6"
+    },
+    {
+      "id": "shopping",
+      "name": "Shopping Centers",
+      "icon": "bi-bag",
+      "color": "#f1c40f"
+    },
+    {
+      "id": "grocery",
+      "name": "Grocery Stores",
+      "icon": "bi-cart",
+      "color": "#16a085"
+    }
+  ]
+}
