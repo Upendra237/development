@@ -1,0 +1,189 @@
+/* 
+ * responsive.css
+ * Mobile-first responsive styles for sticker ordering website
+ */
+
+/* Base/Mobile Styles (already in main.css) */
+
+/* Medium Screens (Tablets) */
+@media (max-width: 992px) {
+    /* Adjust progress bar */
+    .progress-bar {
+        margin-bottom: var(--spacing-lg);
+    }
+    
+    .step-name {
+        font-size: 0.75rem;
+    }
+    
+    /* Adjust sticker selection layout */
+    #sticker-selection {
+        grid-template-columns: 1fr;
+    }
+    
+    .order-info {
+        position: static;
+        margin-bottom: var(--spacing-lg);
+    }
+    
+    /* Make stickers slightly smaller */
+    .sticker {
+        flex: 0 0 140px;
+    }
+    
+    .sticker-image {
+        height: 110px;
+    }
+}
+
+/* Small Screens (Mobile) */
+@media (max-width: 768px) {
+    /* Reduce container padding */
+    .container {
+        padding: 0 var(--spacing-md);
+    }
+    
+    /* Reduce heading sizes */
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    h2 {
+        font-size: 1.4rem;
+        margin-bottom: var(--spacing-md);
+    }
+    
+    /* Simplify progress bar */
+    .progress-bar::before {
+        top: 15px;
+    }
+    
+    .step-number {
+        width: 30px;
+        height: 30px;
+        font-size: 0.85rem;
+    }
+    
+    .step-name {
+        display: none; /* Hide step names on mobile */
+    }
+    
+    /* Adjust sticker grid */
+    .sticker {
+        flex: 0 0 120px;
+    }
+    
+    .sticker-image {
+        height: 100px;
+    }
+    
+    /* Make form elements more touch-friendly */
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    input[type="password"],
+    input[type="file"],
+    textarea,
+    select,
+    .btn {
+        font-size: 1rem;
+        padding: var(--spacing-md);
+    }
+    
+    /* Stack button groups */
+    .button-group {
+        flex-direction: column;
+        gap: var(--spacing-md);
+    }
+    
+    .button-group button {
+        width: 100%;
+    }
+    
+    /* Modal adjustments */
+    .modal-content {
+        margin: 5% auto;
+        padding: var(--spacing-lg);
+        width: 90%;
+    }
+}
+
+/* Extra Small Screens */
+@media (max-width: 480px) {
+    /* Further reduce font sizes */
+    html {
+        font-size: 15px;
+    }
+    
+    /* Stack radio groups */
+    .radio-group {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+    
+    /* Make stickers more prominent */
+    .sticker {
+        flex: 0 0 130px;
+    }
+    
+    /* Balance white space */
+    .order-info {
+        padding: var(--spacing-md);
+    }
+    
+    .payment-summary,
+    .confirmation-content,
+    .payment-instructions {
+        padding: var(--spacing-md);
+    }
+}
+
+/* Optimized for Mobile First */
+@media (min-width: 768px) {
+    /* Enhance desktop experience with animations */
+    .sticker:hover {
+        transform: translateY(-5px);
+    }
+    
+    .sticker-scroll {
+        scrollbar-width: thin;
+    }
+    
+    /* Make buttons more responsive on hover */
+    .btn:hover {
+        transform: translateY(-2px);
+    }
+}
+
+/* Make sure text is always readable by setting min font sizes */
+@media (max-width: 320px) {
+    html {
+        font-size: 14px;
+    }
+    
+    .sticker-name {
+        font-size: 0.85rem;
+    }
+    
+    .counter {
+        font-size: 0.8rem;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .progress-bar,
+    .btn:not(#new-order),
+    footer {
+        display: none;
+    }
+    
+    body {
+        background-color: white;
+    }
+    
+    .confirmation-content {
+        box-shadow: none;
+        padding: 0;
+    }
+}
