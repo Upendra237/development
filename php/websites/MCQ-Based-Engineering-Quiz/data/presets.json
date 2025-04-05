@@ -1,0 +1,44 @@
+{
+  "presets": [
+    {
+      "id": 1,
+      "name": "Computer Basics",
+      "description": "Fundamental computer concepts and hardware components",
+      "tags": ["computer", "hardware", "programming"],
+      "num_questions": 1,
+      "difficulty": "Beginner"
+    },
+    {
+      "id": 2,
+      "name": "Communications",
+      "description": "Communication systems and protocols",
+      "tags": ["communication", "electronics"],
+      "num_questions": 5,
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": 3,
+      "name": "Programming",
+      "description": "Core programming concepts and practices",
+      "tags": ["programming", "computer"],
+      "num_questions": 15,
+      "difficulty": "Intermediate"
+    },
+    {
+      "id": 4,
+      "name": "Electronics",
+      "description": "Electronic components and circuits",
+      "tags": ["electronics", "hardware"],
+      "num_questions": 10,
+      "difficulty": "Advanced"
+    },
+    {
+      "id": 5,
+      "name": "Quick Quiz",
+      "description": "A short quiz covering various topics",
+      "tags": ["computer", "programming", "electronics"],
+      "num_questions": 5,
+      "difficulty": "Mixed"
+    }
+  ]
+} 

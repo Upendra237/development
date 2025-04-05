@@ -1,0 +1,84 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "What does CPU stand for?",
+            "options": [
+                "Central Processing Unit",
+                "Computer Processing Unit",
+                "Central Process Unit",
+                "Control Processing Unit"
+            ],
+            "correct": 0,
+            "explanation": "CPU stands for Central Processing Unit. It's the primary component of a computer that performs most of the processing inside a computer system. It acts as the brain of the computer, executing instructions and handling the basic operations.",
+            "tags": [
+                "computer",
+                "electronics"
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Which protocol is commonly used for secure web browsing?",
+            "options": [
+                "HTTP",
+                "HTTPS",
+                "FTP",
+                "SMTP"
+            ],
+            "correct": 1,
+            "explanation": "HTTPS (HyperText Transfer Protocol Secure) is used for secure web browsing. It encrypts the data exchanged between a user's browser and the website, protecting sensitive information from potential eavesdropping and man-in-the-middle attacks.",
+            "tags": [
+                "computer",
+                "communication"
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Which of the following is a programming language?",
+            "options": [
+                "HTML",
+                "HTTP",
+                "HTTPS",
+                "FTP"
+            ],
+            "correct": 0,
+            "explanation": "HTML (HyperText Markup Language) is a programming language used to create web pages. While it's technically a markup language rather than a full programming language, it's the standard for structuring web content. HTTP, HTTPS, and FTP are protocols, not programming languages.",
+            "tags": [
+                "computer",
+                "programming"
+            ]
+        },
+        {
+            "id": 4,
+            "question": "What is the main function of RAM?",
+            "options": [
+                "Permanent storage",
+                "Temporary storage",
+                "Processing data",
+                "Network communication"
+            ],
+            "correct": 1,
+            "explanation": "RAM (Random Access Memory) provides temporary storage for data and programs currently being used by the CPU. Unlike permanent storage devices like hard drives, RAM is volatile memory that loses its data when power is turned off.",
+            "tags": [
+                "computer",
+                "hardware"
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Which component is known as the brain of the computer?",
+            "options": [
+                "Hard Drive",
+                "RAM",
+                "CPU",
+                "Motherboard"
+            ],
+            "correct": 2,
+            "explanation": "The CPU (Central Processing Unit) is known as the brain of the computer because it handles all the instructions from hardware and software, performing calculations and executing tasks. It interprets and processes all the basic instructions that drive the computer's operations.",
+            "tags": [
+                "computer",
+                "hardware"
+            ]
+        }
+    ]
+}
