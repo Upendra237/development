@@ -8,10 +8,10 @@ define('RESULTS_FILE', DATA_DIR . 'results.json');
 define('PRESETS_FILE', DATA_DIR . 'presets.json');
 
 // Application settings
-define('APP_NAME', 'MCQ Based Engineering Quiz');
+define('APP_NAME', 'Engineering Knowledge Hub');
 define('DEBUG_MODE', false);
 define('MAX_QUESTIONS', 20);
-define('ADMIN_PASSWORD', 'admin');
+define('ADMIN_PASSWORD', 'KhEC237');
 
 // Error handling
 if (DEBUG_MODE) {

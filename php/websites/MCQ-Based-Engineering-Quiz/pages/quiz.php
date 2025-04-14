@@ -94,23 +94,7 @@ if (empty($questions)) {
     redirect('select.php?username=' . urlencode($username) . '&error=no_questions');
 }
 
-// Randomize options for each question to prevent pattern recognition
-foreach ($questions as &$question) {
-    // Store correct answer value
-    $correctOptionValue = $question['options'][$question['correct']];
-    
-    // Randomize options
-    $options = $question['options'];
-    shuffle($options);
-    
-    // Find new position of correct answer
-    $newCorrectIndex = array_search($correctOptionValue, $options);
-    
-    // Update question
-    $question['options'] = $options;
-    $question['correct'] = $newCorrectIndex;
-}
-unset($question); // Break the reference
+// No need to randomize options anymore - they will stay in their original order
 ?>
 
 <!DOCTYPE html>

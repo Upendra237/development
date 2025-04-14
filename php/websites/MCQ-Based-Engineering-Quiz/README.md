@@ -29,10 +29,13 @@ A comprehensive and interactive Multiple Choice Quiz (MCQ) application designed 
 2. **Setup Steps**
    ```
    # Clone the repository
-   git clone https://github.com/Upendra237/development.git
+   git clone https://github.com/yourusername/engineering-quiz.git
    
    # Navigate to the project directory
-   cd development/websites
+   cd engineering-quiz
+   
+   # Import the database schema
+   mysql -u username -p database_name < data/quiz_schema.sql
    
    # Configure database connection
    # Edit includes/config.php with your database credentials
@@ -40,6 +43,7 @@ A comprehensive and interactive Multiple Choice Quiz (MCQ) application designed 
 
 3. **Configuration**
    - Open `includes/config.php` and update the following:
+     - Database connection details
      - Admin password
      - Application settings
 
@@ -84,7 +88,7 @@ engineering-quiz/
 
 - **Frontend**: HTML5, CSS3, JavaScript (ES6+)
 - **Backend**: PHP
-- **Database**: JSON
+- **Database**: MySQL
 - **Design**: Responsive layout with mobile-first approach
 - **Architecture**: Modular code organization with separation of concerns
 

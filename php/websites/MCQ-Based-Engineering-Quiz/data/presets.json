@@ -2,41 +2,89 @@
   "presets": [
     {
       "id": 1,
-      "name": "Computer Basics",
-      "description": "Fundamental computer concepts and hardware components",
-      "tags": ["computer", "hardware", "programming"],
-      "num_questions": 1,
+      "name": "Computer Engineering Basics",
+      "description": "Fundamental concepts of computer engineering including hardware, software, and architecture",
+      "tags": ["computer", "hardware", "programming", "computer-engineering"],
+      "num_questions": 10,
       "difficulty": "Beginner"
     },
     {
       "id": 2,
-      "name": "Communications",
-      "description": "Communication systems and protocols",
-      "tags": ["communication", "electronics"],
-      "num_questions": 5,
-      "difficulty": "Intermediate"
+      "name": "Civil Engineering Fundamentals",
+      "description": "Core concepts of civil engineering including structures, materials, and design",
+      "tags": ["civil", "structures", "materials", "civil-engineering"],
+      "num_questions": 10,
+      "difficulty": "Beginner"
     },
     {
       "id": 3,
-      "name": "Programming",
-      "description": "Core programming concepts and practices",
-      "tags": ["programming", "computer"],
-      "num_questions": 15,
-      "difficulty": "Intermediate"
+      "name": "Electronics & Communication",
+      "description": "Basic principles of electronics and communication systems",
+      "tags": ["electronics", "communication", "ece", "circuits"],
+      "num_questions": 10,
+      "difficulty": "Beginner"
     },
     {
       "id": 4,
-      "name": "Electronics",
-      "description": "Electronic components and circuits",
-      "tags": ["electronics", "hardware"],
+      "name": "Automation Engineering",
+      "description": "Fundamentals of automation, control systems, and robotics",
+      "tags": ["automation", "control-systems", "robotics", "mechatronics"],
       "num_questions": 10,
-      "difficulty": "Advanced"
+      "difficulty": "Beginner"
     },
     {
       "id": 5,
-      "name": "Quick Quiz",
-      "description": "A short quiz covering various topics",
-      "tags": ["computer", "programming", "electronics"],
+      "name": "Architecture Basics",
+      "description": "Core concepts of architectural design and planning",
+      "tags": ["architecture", "design", "planning", "construction"],
+      "num_questions": 10,
+      "difficulty": "Beginner"
+    },
+    {
+      "id": 6,
+      "name": "Advanced Computer Engineering",
+      "description": "Advanced topics in computer engineering including AI, networks, and security",
+      "tags": ["computer", "ai", "networks", "security", "computer-engineering"],
+      "num_questions": 15,
+      "difficulty": "Advanced"
+    },
+    {
+      "id": 7,
+      "name": "Advanced Civil Engineering",
+      "description": "Complex topics in civil engineering including advanced structures and materials",
+      "tags": ["civil", "structures", "materials", "civil-engineering"],
+      "num_questions": 15,
+      "difficulty": "Advanced"
+    },
+    {
+      "id": 8,
+      "name": "Advanced ECE",
+      "description": "Complex topics in electronics and communication engineering",
+      "tags": ["electronics", "communication", "ece", "circuits"],
+      "num_questions": 15,
+      "difficulty": "Advanced"
+    },
+    {
+      "id": 9,
+      "name": "Advanced Automation",
+      "description": "Advanced concepts in automation and control systems",
+      "tags": ["automation", "control-systems", "robotics", "mechatronics"],
+      "num_questions": 15,
+      "difficulty": "Advanced"
+    },
+    {
+      "id": 10,
+      "name": "Advanced Architecture",
+      "description": "Complex topics in architectural design and sustainable architecture",
+      "tags": ["architecture", "design", "sustainability", "construction"],
+      "num_questions": 15,
+      "difficulty": "Advanced"
+    },
+    {
+      "id": 11,
+      "name": "Engineering Quick Quiz",
+      "description": "A short quiz covering various engineering disciplines",
+      "tags": ["computer", "civil", "electronics", "automation", "architecture"],
       "num_questions": 5,
       "difficulty": "Mixed"
     }

@@ -11,6 +11,9 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 // Get username
 $username = isset($_POST['username']) ? sanitizeInput($_POST['username']) : 'Guest';
 
+// Set timezone to Kathmandu
+date_default_timezone_set('Asia/Kathmandu');
+
 // Get preset name if used
 $presetName = isset($_POST['preset_name']) ? sanitizeInput($_POST['preset_name']) : null;
 
@@ -118,7 +121,7 @@ $topTags = array_slice($userTags, 0, 3, true);
                     <div class="score-details">
                         <p>Score: <strong><?php echo $scoreData['score']; ?> out of <?php echo $scoreData['total']; ?></strong></p>
                         <p>Topics: <span class="tags-highlight"><?php echo implode(', ', $tags); ?></span></p>
-                        <p>Date: <?php echo date('F j, Y, g:i a'); ?></p>
+                        <p>Date: <?php echo date('F j, Y, g:i a T'); ?></p>
                     </div>
                 </div>
                 
@@ -215,7 +218,7 @@ $topTags = array_slice($userTags, 0, 3, true);
         </main>
         
         <footer>
-            <p>Copyright &copy; <?php echo date('Y'); ?> Knowledge Sharing Circle | Developed by <a href="https://github.com/upendrahsi" target="_blank">Upendra Shahi - 780347</a></p>
+            <p>Copyright &copy; <?php echo date('Y'); ?> Knowledge Sharing Circle</p>
         </footer>
     </div>
 </body>

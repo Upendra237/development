@@ -1,3 +1,522 @@
 {
-    "results": []
+    "results": [
+        {
+            "user_answers": {
+                "3": 0,
+                "1": 0,
+                "2": 1,
+                "5": 2,
+                "4": 1
+            },
+            "tags": [
+                "communication",
+                "computer",
+                "electronics"
+            ],
+            "score": 5,
+            "total": 5,
+            "percentage": 100,
+            "timestamp": 1743861987
+        },
+        {
+            "username": "Upendra237",
+            "user_answers": {
+                "1": 0
+            },
+            "tags": [
+                "electronics"
+            ],
+            "score": 1,
+            "total": 1,
+            "percentage": 100,
+            "timestamp": 1743862611
+        },
+        {
+            "username": "Sanjib",
+            "user_answers": {
+                "3": 0
+            },
+            "tags": [
+                "programming"
+            ],
+            "score": 1,
+            "total": 1,
+            "percentage": 100,
+            "timestamp": 1743862656
+        },
+        {
+            "username": "Upendra237",
+            "user_answers": {
+                "1": 1,
+                "2": 1
+            },
+            "tags": [
+                "communication",
+                "electronics"
+            ],
+            "score": 1,
+            "total": 2,
+            "percentage": 50,
+            "preset_name": "Communications",
+            "timestamp": 1743863357
+        },
+        {
+            "username": "Upendra237",
+            "user_answers": {
+                "3": 0,
+                "2": 1,
+                "4": 1,
+                "5": 1,
+                "1": 0
+            },
+            "tags": [
+                "programming",
+                "computer"
+            ],
+            "score": 4,
+            "total": 5,
+            "percentage": 80,
+            "preset_name": "Programming Fundamentals",
+            "timestamp": 1743863440
+        },
+        {
+            "username": "Upendra237",
+            "user_answers": {
+                "4": 0,
+                "2": 1,
+                "1": 0,
+                "3": 2,
+                "5": 2
+            },
+            "tags": [
+                "programming",
+                "computer"
+            ],
+            "score": 3,
+            "total": 5,
+            "percentage": 60,
+            "preset_name": "Programming Fundamentals",
+            "timestamp": 1743866219
+        },
+        {
+            "username": "asdasd",
+            "user_answers": {
+                "4": 0,
+                "2": 2,
+                "3": 1,
+                "1": 0,
+                "5": 3
+            },
+            "tags": [
+                "communication",
+                "computer"
+            ],
+            "score": 1,
+            "total": 5,
+            "percentage": 20,
+            "preset_name": null,
+            "timestamp": 1743871308
+        },
+        {
+            "username": "asd",
+            "user_answers": {
+                "2": 1
+            },
+            "tags": [
+                "communication"
+            ],
+            "score": 1,
+            "total": 1,
+            "percentage": 100,
+            "preset_name": null,
+            "timestamp": 1743871354
+        },
+        {
+            "username": "Upendra",
+            "user_answers": {
+                "5": 0,
+                "4": 1,
+                "1": 2,
+                "2": 2,
+                "3": 2
+            },
+            "tags": [
+                "communication",
+                "computer",
+                "electronics",
+                "hardware",
+                "programming"
+            ],
+            "score": 1,
+            "total": 5,
+            "percentage": 20,
+            "preset_name": null,
+            "timestamp": 1743871562
+        },
+        {
+            "username": "Upemdra",
+            "user_answers": [],
+            "tags": [
+                "computer",
+                "electronics"
+            ],
+            "score": 0,
+            "total": 0,
+            "percentage": 0,
+            "preset_name": null,
+            "timestamp": 1743871762
+        },
+        {
+            "username": "jhg",
+            "user_answers": {
+                "1": 0
+            },
+            "tags": [
+                "electronics"
+            ],
+            "score": 1,
+            "total": 1,
+            "percentage": 100,
+            "preset_name": null,
+            "timestamp": 1743871776
+        },
+        {
+            "username": "kjh",
+            "user_answers": {
+                "3": 0,
+                "5": 1
+            },
+            "tags": [
+                "computer",
+                "electronics"
+            ],
+            "score": 1,
+            "total": 2,
+            "percentage": 50,
+            "preset_name": null,
+            "timestamp": 1743871800
+        },
+        {
+            "username": "Guest",
+            "user_answers": {
+                "5": 0
+            },
+            "tags": [
+                "communication",
+                "computer"
+            ],
+            "score": 0,
+            "total": 1,
+            "percentage": 0,
+            "preset_name": null,
+            "timestamp": 1743872393
+        },
+        {
+            "username": "Upendra",
+            "user_answers": {
+                "5": 0,
+                "2": 0,
+                "1": 2
+            },
+            "tags": [
+                "computer",
+                "electronics"
+            ],
+            "score": 0,
+            "total": 3,
+            "percentage": 0,
+            "preset_name": null,
+            "timestamp": 1743875782
+        },
+        {
+            "username": "Upendra",
+            "user_answers": {
+                "4": 0,
+                "3": 2,
+                "5": 1,
+                "2": 2
+            },
+            "tags": [
+                "computer",
+                "electronics"
+            ],
+            "score": 0,
+            "total": 4,
+            "percentage": 0,
+            "preset_name": null,
+            "timestamp": 1743876535
+        },
+        {
+            "username": "Upendra",
+            "user_answers": {
+                "1": 0,
+                "3": 1,
+                "2": 2,
+                "4": 1,
+                "5": 2
+            },
+            "tags": [
+                "computer",
+                "hardware"
+            ],
+            "score": 3,
+            "total": 5,
+            "percentage": 60,
+            "preset_name": "Computer Basics",
+            "timestamp": 1743876985
+        },
+        {
+            "username": "Sanjib Kasti",
+            "user_answers": {
+                "4": 2,
+                "5": 2,
+                "1": 2,
+                "3": 0,
+                "2": 1
+            },
+            "tags": [
+                "communication",
+                "computer",
+                "electronics",
+                "hardware",
+                "programming"
+            ],
+            "score": 3,
+            "total": 5,
+            "percentage": 60,
+            "preset_name": null,
+            "timestamp": 1744171571
+        },
+        {
+            "username": "Sanjib",
+            "user_answers": {
+                "4": 1,
+                "3": 0,
+                "5": 2,
+                "2": 1,
+                "1": 0
+            },
+            "tags": [
+                "computer",
+                "electronics",
+                "hardware"
+            ],
+            "score": 5,
+            "total": 5,
+            "percentage": 100,
+            "preset_name": null,
+            "timestamp": 1744172383
+        },
+        {
+            "username": "dem",
+            "user_answers": {
+                "3": 0,
+                "4": 1,
+                "2": 1,
+                "5": 2,
+                "1": 0
+            },
+            "tags": [
+                "communication",
+                "computer",
+                "electronics",
+                "hardware",
+                "programming"
+            ],
+            "score": 5,
+            "total": 5,
+            "percentage": 100,
+            "preset_name": null,
+            "timestamp": 1744172441
+        },
+        {
+            "username": "dem",
+            "user_answers": {
+                "3": 0,
+                "4": 1,
+                "2": 1,
+                "5": 2,
+                "1": 0
+            },
+            "tags": [
+                "communication",
+                "computer",
+                "electronics",
+                "hardware",
+                "programming"
+            ],
+            "score": 5,
+            "total": 5,
+            "percentage": 100,
+            "preset_name": null,
+            "timestamp": 1744172478
+        },
+        {
+            "username": "dem",
+            "user_answers": {
+                "3": 0,
+                "4": 1,
+                "2": 1,
+                "5": 2,
+                "1": 0
+            },
+            "tags": [
+                "communication",
+                "computer",
+                "electronics",
+                "hardware",
+                "programming"
+            ],
+            "score": 5,
+            "total": 5,
+            "percentage": 100,
+            "preset_name": null,
+            "timestamp": 1744172492
+        },
+        {
+            "username": "dem",
+            "user_answers": {
+                "3": 0,
+                "4": 1,
+                "2": 1,
+                "5": 2,
+                "1": 0
+            },
+            "tags": [
+                "communication",
+                "computer",
+                "electronics",
+                "hardware",
+                "programming"
+            ],
+            "score": 5,
+            "total": 5,
+            "percentage": 100,
+            "preset_name": null,
+            "timestamp": 1744172566
+        },
+        {
+            "username": "ah",
+            "user_answers": {
+                "26": 0,
+                "44": 3,
+                "68": 1,
+                "35": 0,
+                "65": 1,
+                "9": 1,
+                "8": 1,
+                "46": 3,
+                "57": 1,
+                "6": 3,
+                "47": 1,
+                "4": 1,
+                "49": 1,
+                "30": 2,
+                "29": 1
+            },
+            "tags": [
+                "architecture",
+                "automation",
+                "circuits",
+                "civil",
+                "civil-engineering",
+                "cloud",
+                "communication",
+                "computer",
+                "computer-engineering",
+                "construction",
+                "control-systems"
+            ],
+            "score": 11,
+            "total": 15,
+            "percentage": 73,
+            "preset_name": null,
+            "timestamp": 1744173100
+        },
+        {
+            "username": "anonomous",
+            "user_answers": {
+                "31": 2,
+                "56": 1,
+                "57": 1,
+                "76": 1,
+                "119": 1,
+                "81": 0,
+                "37": 0,
+                "116": 1,
+                "7": 0,
+                "103": 1,
+                "3": 1,
+                "87": 1,
+                "51": 1,
+                "2": 1,
+                "72": 1
+            },
+            "tags": [
+                "ai",
+                "algorithms",
+                "automation",
+                "communication",
+                "computer",
+                "computer-engineering"
+            ],
+            "score": 11,
+            "total": 15,
+            "percentage": 73,
+            "preset_name": null,
+            "timestamp": 1744176632
+        },
+        {
+            "username": "admin",
+            "user_answers": {
+                "101": 1,
+                "104": 1
+            },
+            "tags": [
+                "ai"
+            ],
+            "score": 2,
+            "total": 2,
+            "percentage": 100,
+            "preset_name": null,
+            "timestamp": 1744176924
+        },
+        {
+            "username": "Sugar",
+            "user_answers": {
+                "1238": 0,
+                "1334": 1,
+                "1233": 2,
+                "1226": 0,
+                "1246": 0,
+                "1326": 0,
+                "1309": 2,
+                "1298": 0,
+                "1330": 0,
+                "1300": 0,
+                "1658": 0,
+                "1207": 2,
+                "1222": 0,
+                "1242": 0,
+                "1221": 3,
+                "1322": 0,
+                "1302": 0,
+                "1099": 2,
+                "1230": 0,
+                "1308": 1
+            },
+            "tags": [
+                "a-star",
+                "ac-circuits",
+                "ac-dc",
+                "ac-machines",
+                "ampere-law"
+            ],
+            "score": 17,
+            "total": 20,
+            "percentage": 85,
+            "preset_name": null,
+            "timestamp": 1744628251
+        }
+    ]
 }
